@@ -7,7 +7,7 @@ function setup() {
     background("hotpink");
 
     textInput = createInput()
-    textInput.position(width)
+    textInput.position(width/2-100, height/2)
 }
 
 function draw() {
