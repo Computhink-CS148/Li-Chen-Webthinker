@@ -18,7 +18,8 @@ function setup() {
     ageInput.position(width/2-100, height/2+40);
     ageInput.input(updateMyAge);
 
-    colorPicker = createColorPicker
+    colorPicker = createColorPicker("lightpink");
+    
 }
 
 function draw() {
