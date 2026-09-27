@@ -23,7 +23,7 @@ function setup() {
 }
 
 function draw() {
-    background(colorPicker.val);
+    background(colorPicker.value());
     fill("white")
     rect(150, 10, 300, 140  , 15, 15, 15, 15);
     textSize(34);
