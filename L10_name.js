@@ -27,7 +27,7 @@ function draw() {
     textSize(14);
     fill("black");
     textAlign(LEFT, CENTER);
-    stroke("white");
+    stroke("black");
     strokeWeight(0);
     text("Name:", 70, height/2 + 10);
     text("Age:", 70, height/2 + 50);
