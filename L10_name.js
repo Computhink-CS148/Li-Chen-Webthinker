@@ -24,7 +24,7 @@ function draw() {
     stroke("black");
     strokeWeight(0);
     text("Name:", 70, height/2 + 10);
-    text("Age:", )
+    text("Age:", 70,)
 }
 
 function updateMyVar() {
