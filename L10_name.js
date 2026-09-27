@@ -1,7 +1,7 @@
 // write your codes here
 let textInput;
 let ageInput;
-let someVar = "";
+let someVar = " ";
 let someAge = 2;
 
 function setup() {
@@ -14,7 +14,7 @@ function setup() {
     textInput.input(updateMyVar);
 
     ageInput = createInput()
-    textInput.position(width/2-100, height/2);
+    someAgeInput.position(width/2-100, height/2);
     textInput.input(updateMyVar);
 }
 
