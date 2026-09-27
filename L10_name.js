@@ -23,6 +23,7 @@ function draw() {
     fill("white")
     rect(150, 10, 300, 140  , 15, 15, 15, 15);
     textSize(34);
+    fill("black");
     text(someVar, width/2, height/2-80);
     text(someAge, width/2, height/2-130);
     
