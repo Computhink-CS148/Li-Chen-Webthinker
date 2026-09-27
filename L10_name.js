@@ -15,7 +15,7 @@ function setup() {
 
     ageInput = createInput()
     ageInput.position(width/2-100, height/2);
-    ageInput.input(updateMyVar);
+    ageInput.input(updateMyAge);
 }
 
 function draw() {
