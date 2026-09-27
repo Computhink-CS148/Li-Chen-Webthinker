@@ -19,7 +19,8 @@ function draw() {
     text(someVar, width/2, height/2-80);
     
     textSize(14);
-    FileList("black");
+    fill("black");
+    te
 }
 
 function updateMyVar() {
