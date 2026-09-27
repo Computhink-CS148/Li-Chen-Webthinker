@@ -12,6 +12,10 @@ function setup() {
     textInput = createInput()
     textInput.position(width/2-100, height/2);
     textInput.input(updateMyVar);
+
+    ageInput = createInput()
+    textInput.position(width/2-100, height/2);
+    textInput.input(updateMyVar);
 }
 
 function draw() {
