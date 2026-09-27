@@ -36,3 +36,6 @@ function draw() {
 function updateMyVar() {
     someVar= textInput.value()
 }
+function updateMyAge() {
+    someVar= textInput.value()
+}
