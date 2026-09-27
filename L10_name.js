@@ -3,7 +3,7 @@ let textInput;
 let someVar;
 
 function setup() {
-    createCanvas(400, 600);
+    createCanvas(600, 400);
     background("hotpink");
 
     textAlign(CENTER, CENTER)
