@@ -6,7 +6,7 @@ function setup() {
     createCanvas(400, 600);
     background("hotpink");
 
-    textAlign(CENTER< )
+    textAlign(CENTER, CENTER)
     textInput = createInput()
     textInput.position(width/2-100, height/2);
     textInput.input(updateMyVar);
@@ -19,5 +19,5 @@ function draw() {
 }
 
 function updateMyVar() {
-    someVar= textInput()
+    someVar= textInput.value()
 }
