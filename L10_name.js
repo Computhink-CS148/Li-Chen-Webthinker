@@ -18,7 +18,8 @@ function draw() {
     textSize(34);
     text(someVar, width/2, height/2-80);
     
-    
+    textSize(14);
+    FileList()
 }
 
 function updateMyVar() {
