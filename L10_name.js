@@ -20,7 +20,7 @@ function draw() {
     
     textSize(14);
     fill("black");
-    te
+    textAlign(LEFT, )
 }
 
 function updateMyVar() {
