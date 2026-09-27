@@ -21,7 +21,9 @@ function draw() {
     textSize(14);
     fill("black");
     textAlign(LEFT, CENTER);
-    stroke("black")
+    stroke("black");
+    strokeWeight(0);
+    
 }
 
 function updateMyVar() {
