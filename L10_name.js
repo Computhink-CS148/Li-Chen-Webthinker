@@ -7,7 +7,7 @@ function setup() {
     background("hotpink");
 
     textInput = createInput()
-    
+    textInput
 }
 
 function draw() {
