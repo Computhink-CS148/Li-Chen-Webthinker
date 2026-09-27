@@ -1,2 +1,2 @@
 // write your codes here
-setup
+function setup() {}
