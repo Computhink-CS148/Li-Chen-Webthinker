@@ -14,7 +14,7 @@ function setup() {
 
 function draw() {
     background("hotpink");
-    rect(80, 80, 250, 110)
+    rect(150, 300, 250, 110)
     textSize(34);
     text(someVar, width/2, height/2-80);
 }
