@@ -23,7 +23,7 @@ function draw() {
     textAlign(LEFT, CENTER);
     stroke("black");
     strokeWeight(0);
-    text("Name")
+    text("Name:")
 }
 
 function updateMyVar() {
