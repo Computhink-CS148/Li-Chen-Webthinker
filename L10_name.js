@@ -8,9 +8,10 @@ function setup() {
 
     textInput = createInput()
     textInput.position(width/2-100, height/2);
-    textInput
+    textInput.input(updateMyVar);
 }
 
 function draw() {
     background("hotpink");
+    
 }
