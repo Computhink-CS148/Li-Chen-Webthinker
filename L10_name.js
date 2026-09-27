@@ -20,7 +20,8 @@ function draw() {
     
     textSize(14);
     fill("black");
-    textAlign(LEFT, )
+    textAlign(LEFT, CENTER);
+    
 }
 
 function updateMyVar() {
