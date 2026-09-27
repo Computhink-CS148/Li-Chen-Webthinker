@@ -18,5 +18,5 @@ function draw() {
 }
 
 function updateMyVar() {
-    someVar= textInput
+    someVar= textInput()
 }
