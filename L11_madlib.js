@@ -24,7 +24,7 @@ function setup() {
     storyText = storyText.replace("{adj}", adjInput.value());
     storyText = storyText.replace("{verb}", verbInput.value());
     storyText = storyText.replace("{adv}", advInput.value());
-    storyText = storyText.replace("{place}", "window of the principal's office");
+    storyText = storyText.replace("{place}", placeInput.value());
     console.log(storyText);
 
     createCanvas(700, 700);
