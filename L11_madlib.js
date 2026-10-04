@@ -15,6 +15,7 @@ function setup() {
 
     button = createButton("submit");
     button.position(width/2, 160);
+    
 }
 
 function draw() {
