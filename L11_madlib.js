@@ -18,7 +18,7 @@ function setup() {
     ];
 
     template = random(storyTemplates);
-    storyText = storyTemplates.replace("{noun}", "dog");
+    storyText = template.replace("{noun}", "dog");
 
     storyText = storyText.replace("{adj}", "brown");
     storyText = storyText.replace("{verb}", "barks");
