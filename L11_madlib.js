@@ -17,9 +17,9 @@ function setup() {
         "Long long time ago, a {adj} {noun} {verb} {adv} on the {place}",
     ];
 
-    templare = random(storyTemplates);
+    template = random(storyTemplates);
     storyText = storyTemplates.replace("{noun}", "dog");
-    
+
     storyText = storyText.replace("{adj}", "brown");
     storyText = storyText.replace("{verb}", "barks");
     storyText = storyText.replace("{adv}", "loudly");
