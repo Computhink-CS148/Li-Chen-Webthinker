@@ -3,7 +3,7 @@ let nounInput;
 let verbInput;
 let adjInput;
 let adverbInput;
-let 
+let placeInput;
 let button;
 
 function setup() {
