@@ -7,7 +7,7 @@ let placeInput;
 let button;
 
 let storyText;
-let storyTemplate;
+let storyTemplates;
 
 function setup() {
     createCanvas(700, 700);
