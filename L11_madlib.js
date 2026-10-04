@@ -70,4 +70,13 @@ function draw() {
 function updateStory() {
     print("hello " + nounInput.value());
     print("i am going to " + verbInput.value());
+
+    
+    template = random(storyTemplates);
+    storyText = template.replace("{noun}", "dog");
+
+    storyText = storyText.replace("{adj}", "brown");
+    storyText = storyText.replace("{verb}", "bark");
+    storyText = storyText.replace("{adv}", "loudly");
+    storyText = storyText.replace("{place}", "window of the principal's office");
 }
