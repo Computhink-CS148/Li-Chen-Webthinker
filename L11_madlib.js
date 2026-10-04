@@ -6,7 +6,8 @@ let advInput;
 let placeInput;
 let button;
 
-let
+let storyText;
+letstory
 
 function setup() {
     createCanvas(700, 700);
