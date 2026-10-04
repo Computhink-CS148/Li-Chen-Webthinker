@@ -10,7 +10,7 @@ let storyText;
 let storyTemplates;
 
 function setup() {
-
+    
 
     createCanvas(700, 700);
 
