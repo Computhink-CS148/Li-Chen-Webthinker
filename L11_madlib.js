@@ -1,12 +1,12 @@
 // write your codes here
 let noun;
-let secondInput;
+let verb;
 let button;
 
 function setup() {
     createCanvas(700, 700);
 
-    textInput = createInput();
+    noun = createInput();
     textInput.position(width/2, 100);
 
     secondInput = createInput();
