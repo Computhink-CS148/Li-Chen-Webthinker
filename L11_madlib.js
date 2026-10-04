@@ -15,6 +15,6 @@ function setup() {
 function draw() {
     background("violet");
     textSize(38);
-    textAlign
+    textAlign()
     text("name:", width/2, 120);
 }
