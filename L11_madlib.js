@@ -1,7 +1,11 @@
 // write your codes here
-let t
+let textInput;
+let button;
+
 function setup() {
     createCanvas(700, 700);
+
+    
 }
 
 function draw() {
