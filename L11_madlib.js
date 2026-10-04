@@ -18,13 +18,7 @@ function setup() {
         "{adj}, "
     ];
 
-    template = random(storyTemplates);
-    storyText = template.replace("{noun}", nounInput.value());
-
-    storyText = storyText.replace("{adj}", adjInput.value());
-    storyText = storyText.replace("{verb}", verbInput.value());
-    storyText = storyText.replace("{adv}", advInput.value());
-    storyText = storyText.replace("{place}", placeInput.value());
+    
     console.log(storyText);
 
     createCanvas(700, 700);
@@ -73,10 +67,10 @@ function updateStory() {
 
 
     template = random(storyTemplates);
-    storyText = template.replace("{noun}", "dog");
+    storyText = template.replace("{noun}", nounInput.value());
 
-    storyText = storyText.replace("{adj}", "brown");
-    storyText = storyText.replace("{verb}", "bark");
-    storyText = storyText.replace("{adv}", "loudly");
-    storyText = storyText.replace("{place}", "window of the principal's office");
+    storyText = storyText.replace("{adj}", adjInput.value());
+    storyText = storyText.replace("{verb}", verbInput.value());
+    storyText = storyText.replace("{adv}", advInput.value());
+    storyText = storyText.replace("{place}", placeInput.value());
 }
