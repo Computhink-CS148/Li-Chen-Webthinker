@@ -25,3 +25,7 @@ function draw() {
     text("name:", width/2-10, 110);
     text("home address:", width/2-10, 140);
 }
+
+function updateStory() {
+    
+}
