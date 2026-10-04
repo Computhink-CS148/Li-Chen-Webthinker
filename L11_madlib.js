@@ -9,8 +9,8 @@ let button;
 function setup() {
     createCanvas(700, 700);
 
-    noun = createInput();
-    noun.position(width/2, 100);
+    nounInput = createInput();
+    nounInput.position(width/2, 100);
 
     verb = createInput();
     verb.position(width/2, 130);
