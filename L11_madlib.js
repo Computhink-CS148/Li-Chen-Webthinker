@@ -21,6 +21,7 @@ function setup() {
     storyText = storyText.replace("{adj}", "brown");
     storyText = storyText.replace("{verb}", "barks");
     storyText = storyText.replace("{adv}", "place");
+    storyText = storyText.replace("{adj}", "brown");
     console.log(storyText),
 
     createCanvas(700, 700);
