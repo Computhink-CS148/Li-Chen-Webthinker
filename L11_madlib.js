@@ -14,6 +14,6 @@ function setup() {
 
 function draw() {
     background("violet");
-    
-    text("name:", width/2, 120)
+    textSize
+    text("name:", width/2, 120);
 }
