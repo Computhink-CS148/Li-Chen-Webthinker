@@ -26,7 +26,7 @@ function setup() {
 
 
     button = createButton("submit");
-    button.position(width/2, 160);
+    button.position(width/2, 260);
     button.mousePressed(updateStory);
 }
 
