@@ -1,6 +1,6 @@
 // write your codes here
 function setup() {
-    createCanvas(800, 800);
+    createCanvas(700, 700);
 }
 
 function draw() {
