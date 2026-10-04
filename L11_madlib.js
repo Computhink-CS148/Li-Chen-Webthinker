@@ -37,7 +37,8 @@ function draw() {
 
     text("enter a noun:", width/2-10, 110);
     text("enter a verb:", width/2-10, 140);
-    text("enter an adjective:", width/2)
+    text("enter an adjective:", width/2-10, 170);
+    text
 }
 
 function updateStory() {
