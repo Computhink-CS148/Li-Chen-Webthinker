@@ -12,8 +12,8 @@ function setup() {
     nounInput = createInput();
     nounInput.position(width/2, 100);
 
-    verb = createInput();
-    verb.position(width/2, 130);
+    verbInput = createInput();
+    verbInput.position(width/2, 130);
 
 
     button = createButton("submit");
