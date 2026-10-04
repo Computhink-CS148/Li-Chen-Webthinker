@@ -10,7 +10,7 @@ function setup() {
     textInput.position(width/2, 100);
 
     secondInput = createInput();
-    textInput.position(width/2, 130);
+    secondInput.position(width/2, 130);
 
 
     button = createButton("submit");
