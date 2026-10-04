@@ -1,6 +1,7 @@
 // write your codes here
-let noun;
-let verb;
+let nounInput;
+let verbInput;
+let adjInput;
 let 
 let button;
 
