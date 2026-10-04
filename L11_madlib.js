@@ -6,6 +6,8 @@ let advInput;
 let placeInput;
 let button;
 
+let
+
 function setup() {
     createCanvas(700, 700);
 
