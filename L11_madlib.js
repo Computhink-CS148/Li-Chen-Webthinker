@@ -25,7 +25,7 @@ function setup() {
     storyText = storyText.replace("{verb}", "bark");
     storyText = storyText.replace("{adv}", "loudly");
     storyText = storyText.replace("{place}", "window of the principal's office");
-    console.log(storyText),
+    console.log(storyText);
 
     createCanvas(700, 700);
 
