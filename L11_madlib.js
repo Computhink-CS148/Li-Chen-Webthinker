@@ -19,7 +19,7 @@ function setup() {
     ];
 
     templare = random(storyTemplates);
-    storyText = storyTemplates.replace("{noun}", "dog");
+    storyText = storyText.replace("{noun}", "dog");
     storyText = storyText.replace("{adj}", "brown");
     storyText = storyText.replace("{verb}", "barks");
     storyText = storyText.replace("{adv}", "loudly");
