@@ -27,5 +27,6 @@ function draw() {
 }
 
 function updateStory() {
-    print("hello" + textInput.)
+    print("hello" + textInput.value());
+    
 }
