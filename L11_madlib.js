@@ -17,5 +17,5 @@ function draw() {
     textSize(18);
     textAlign(RIGHT, CENTER);
     text("name:", width/2-10, 110);
-    text("home address:", width/2-10, 160)
+    text("home address:", width/2-10, 170);
 }
