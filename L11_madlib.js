@@ -1,6 +1,7 @@
 // write your codes here
 let noun;
 let verb;
+let 
 let button;
 
 function setup() {
@@ -9,8 +10,8 @@ function setup() {
     noun = createInput();
     noun.position(width/2, 100);
 
-    severbcondInput = createInput();
-    secondInput.position(width/2, 130);
+    verb = createInput();
+    verb.position(width/2, 130);
 
 
     button = createButton("submit");
