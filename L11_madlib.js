@@ -20,8 +20,8 @@ function setup() {
     storyText = storyTemplates.replace("{noun}", "dog");
     storyText = storyText.replace("{adj}", "brown");
     storyText = storyText.replace("{verb}", "barks");
-    storyText = storyText.replace("{adv}", "place");
-    storyText = storyText.replace("{adj}", "brown");
+    storyText = storyText.replace("{adv}", "loudly");
+    storyText = storyText.replace("{place}", "brown");
     console.log(storyText),
 
     createCanvas(700, 700);
