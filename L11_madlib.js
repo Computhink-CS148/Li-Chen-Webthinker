@@ -17,8 +17,8 @@ function setup() {
         "Long long time ago, a {adj} {noun} {verb} {adv} on the {place}",
         "{adj}, {noun} {adv} {verb} in the {place}",
         "{adj}, {noun} {adv} {verb} at the {place}",
-        "{adj}, {noun} {adv} {verb} in the {place}",
-        "{adj}, {noun} {adv} {verb} at the {place}"
+        "{adj}, {noun} {adv} {verb} in {place}",
+        "{adj}, {noun} {adv} {verb} at {place}"
     ];
 
     
