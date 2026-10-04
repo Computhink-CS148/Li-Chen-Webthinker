@@ -14,4 +14,5 @@ function setup() {
 
 function draw() {
     background("violet");
+    text
 }
