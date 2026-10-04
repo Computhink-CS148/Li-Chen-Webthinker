@@ -39,7 +39,7 @@ function draw() {
     text("enter a verb:", width/2-10, 140);
     text("enter an adjective:", width/2-10, 170);
     text("enter an adverb:", width/2-10, 200);
-    text("ene")
+    text("enter a place:", width/2-10, )
 }
 
 function updateStory() {
