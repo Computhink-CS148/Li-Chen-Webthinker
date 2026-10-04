@@ -2,7 +2,7 @@
 let textInput;
 let ageInput;
 let someVar = " ";
-let someAge = 0;
+let someAge = " ";
 let colorPicker;
 
 function setup() {
