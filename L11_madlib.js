@@ -5,7 +5,7 @@ let button;
 function setup() {
     createCanvas(700, 700);
 
-    
+    textInputn
 }
 
 function draw() {
