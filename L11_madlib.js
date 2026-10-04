@@ -64,7 +64,7 @@ function draw() {
     textAlign(CENTER, CENTER);
     textSize(14);
     fill("white");
-    text(story)
+    text(storyText, width/2, height/2)
 }
 
 function updateStory() {
