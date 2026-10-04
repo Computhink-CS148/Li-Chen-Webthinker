@@ -21,7 +21,7 @@ function setup() {
     template = random(storyTemplates);
     storyText = template.replace("{noun}", nounInput.value());
 
-    storyText = storyText.replace("{adj}", "brown");
+    storyText = storyText.replace("{adj}", adjInput.value());
     storyText = storyText.replace("{verb}", "bark");
     storyText = storyText.replace("{adv}", "loudly");
     storyText = storyText.replace("{place}", "window of the principal's office");
