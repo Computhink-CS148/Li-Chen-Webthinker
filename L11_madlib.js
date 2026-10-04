@@ -30,6 +30,6 @@ function draw() {
 }
 
 function updateStory() {
-    print("hello " + textInput.value());
+    print("hello " + nounInput.value());
     print("i am going to " + secondInput.value());
 }
