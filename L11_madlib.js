@@ -16,7 +16,9 @@ function setup() {
         "Did you hear about the {adj} {noun} that tried to {verb} near {place}.",
         "Long long time ago, a {adj} {noun} {verb} {adv} on the {place}",
         "{adj}, {noun} {adv} {verb} in the {place}",
-        "{adj}, {noun} {adv} {verb} in the {place}"
+        "{adj}, {noun} {adv} {verb} at the {place}",
+        "{adj}, {noun} {adv} {verb} in the {place}",
+        "{adj}, {noun} {adv} {verb} at the {place}"
     ];
 
     
