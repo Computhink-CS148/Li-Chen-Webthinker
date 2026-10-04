@@ -1,6 +1,6 @@
 // write your codes here
 let textInput;
-let secondIput
+let secondInput
 let button;
 
 function setup() {
