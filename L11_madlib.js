@@ -11,7 +11,7 @@ function setup() {
     textInput = createInput();
     textInput.position(width/2, 100);
 
-    
+
     button = createButton("submit");
     button.position(width/2, 130);
 }
@@ -21,5 +21,5 @@ function draw() {
     textSize(18);
     textAlign(RIGHT, CENTER);
     text("name:", width/2-10, 110);
-    text("home address:", width/2-10, 170);
+    text("home address:", width/2-10, 140);
 }
