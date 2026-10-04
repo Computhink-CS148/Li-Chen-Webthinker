@@ -21,7 +21,8 @@ function setup() {
     advInput = createInput();
     advInput.position(width/2, 190);
 
-    placeInput = create 
+    placeInput = createInput();
+    
 
 
     button = createButton("submit");
