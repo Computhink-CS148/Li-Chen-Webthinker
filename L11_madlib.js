@@ -71,7 +71,7 @@ function updateStory() {
     print("hello " + nounInput.value());
     print("i am going to " + verbInput.value());
 
-    
+
     template = random(storyTemplates);
     storyText = template.replace("{noun}", "dog");
 
