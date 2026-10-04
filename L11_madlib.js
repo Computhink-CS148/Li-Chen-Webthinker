@@ -36,8 +36,8 @@ function draw() {
     textAlign(RIGHT, CENTER);
 
     text("enter a noun:", width/2-10, 110);
-    text("enter verb:", width/2-10, 140);
-    text("enter an adjective:")
+    text("enter a verb:", width/2-10, 140);
+    text("enter an adjective:", width/2)
 }
 
 function updateStory() {
