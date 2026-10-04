@@ -7,9 +7,9 @@ function setup() {
     createCanvas(700, 700);
 
     noun = createInput();
-    textInput.position(width/2, 100);
+    noun.position(width/2, 100);
 
-    secondInput = createInput();
+    severbcondInput = createInput();
     secondInput.position(width/2, 130);
 
 
