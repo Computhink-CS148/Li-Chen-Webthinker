@@ -61,7 +61,8 @@ function draw() {
     text("enter an adverb:", width/2-10, 200);
     text("enter a place:", width/2-10, 230);
 
-    textAlign(CENTER, CENTER)
+    textAlign(CENTER, CENTER);
+    textSize
 }
 
 function updateStory() {
