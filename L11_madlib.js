@@ -68,7 +68,6 @@ function updateStory() {
 
     template = random(storyTemplates);
     storyText = template.replace("{noun}", nounInput.value());
-
     storyText = storyText.replace("{adj}", adjInput.value());
     storyText = storyText.replace("{verb}", verbInput.value());
     storyText = storyText.replace("{adv}", advInput.value());
