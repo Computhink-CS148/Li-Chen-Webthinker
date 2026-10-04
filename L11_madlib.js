@@ -13,7 +13,7 @@ function setup() {
     storyTemplates = [
         "The {adj} {noun} decided to {verb} {adv} at the place.",
         "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
-        "Did you hear aboutv the {adj} "
+        "Did you hear aboutv the {adj} {noun} that tried to {verb}"
     ];
 
     templare = random(storyTemplates);
