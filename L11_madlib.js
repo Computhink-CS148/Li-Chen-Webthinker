@@ -13,13 +13,13 @@ function setup() {
     storyTemplates = [
         "The {adj} {noun} decided to {verb} {adv} at the place.",
         "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
-        "Did you hear aboutv the {adj} {noun} that tried to {verb} {adj} near {place}"
+        "Did you hear aboutv the {adj} {noun} that tried to {verb} {adj} near {place}."
     ];
 
     templare = random(storyTemplates);
     storyText = storyTemplates.replace("{noun}", "dog");
     storyText = storyText.replace("{adj}", "brown");
-    storyText = storyText.replace("{verb}", "brown");
+    storyText = storyText.replace("{verb}", "barks");
     console.log(storyText),
 
     createCanvas(700, 700);
