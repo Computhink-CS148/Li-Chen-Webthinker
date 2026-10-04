@@ -36,8 +36,8 @@ function draw() {
     textAlign(RIGHT, CENTER);
 
     text("enter noun:", width/2-10, 110);
-    text("home address:", width/2-10, 140);
-    text("")
+    text("enter verb:", width/2-10, 140);
+    text("enter")
 }
 
 function updateStory() {
