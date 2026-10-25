@@ -22,7 +22,8 @@ function setup() {
     scrambledButton.position(150, 300);
     scrambledButton.style("font-size", "18px"); // px = pixel
     scrambledButton.size(150, 300);
-    
+
+    guessInput = 
 }
 
 function draw() {
