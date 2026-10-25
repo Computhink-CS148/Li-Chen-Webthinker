@@ -9,7 +9,7 @@ let hiddenword = " ";
 
 let scrambledButton;
 let guessInput = " ";
-let 
+let submitButton
 
 const WORDS = ["Expression", "International", "Bumblebee", "Coincidentally", "notebook",
      "scrambled", "seventeen", "nigeria",
