@@ -4,7 +4,7 @@ let streak = 0;
 let max = 0;
 let message = " ";
 
-
+C
 function setup() {
     createCanvas(800, 600);
 }
