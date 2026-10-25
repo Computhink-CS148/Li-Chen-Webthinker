@@ -66,7 +66,7 @@ function scrambleWord(aWord) {
         }
     print("correct? " +  arrLetters);
     return arrLetters.join(''); // get back a string
-    scrambled = scrambleWord
+    scrambled = scrambleWord(hiddenword);
 }
 
 function draw() {
