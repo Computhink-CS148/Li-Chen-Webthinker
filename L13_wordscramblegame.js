@@ -20,7 +20,7 @@ function setup() {
 
     scrambledButton = createButton("Re-scramble");
     scrambledButton.position(150, 300);
-    scrambledButton.style(font)
+    scrambledButton.style("font-size")
 }
 
 function draw() {
