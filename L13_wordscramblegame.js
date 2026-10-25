@@ -44,7 +44,9 @@ function checkGuess() {
 
 }
 
-function chooseHiddenWord()
+function chooseHiddenWord() {
+    hiddenword
+}
 
 function draw() {
     background(220);
