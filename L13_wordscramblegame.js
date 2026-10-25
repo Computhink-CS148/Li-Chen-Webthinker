@@ -18,7 +18,7 @@ const WORDS = ["Expression", "International", "Bumblebee", "Coincidentally", "no
 function setup() {
     createCanvas(800, 600);
 
-    scrambledButton = createButton("")
+    scrambledButton = createButton("Re-scrambled")
 }
 
 function draw() {
