@@ -4,6 +4,8 @@ let streak = 0;
 let max = 0;
 let message = " ";
 
+let scramble
+
 const WORDS = ["Expression", "International", "Bumblebee", "Coincidentally", "notebook",
      "scrambled", "seventeen", "nigeria",
       "bookstore", "photographs"];
