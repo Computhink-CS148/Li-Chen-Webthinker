@@ -19,7 +19,7 @@ function setup() {
     createCanvas(800, 600);
 
     scrambledButton = createButton("Re-scramble");
-    scrambledButton.p
+    scrambledButton.position(150, )
 }
 
 function draw() {
