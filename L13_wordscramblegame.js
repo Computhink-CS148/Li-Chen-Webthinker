@@ -14,7 +14,7 @@ let submitButton;
 const WORDS = ["Expression", "International", "Bumblebee", "Coincidentally", "notebook",
      "scrambled", "seventeen", "nigeria",
       "bookstore", "photographs", "millenium", "milliliters", "Incomprehensible",
-       "Mississippi", "Accommodation", "Unnecessary"];
+       "Mississippi", "Accommodation", "Unnecessary", "overexaggerate"];
 
 function setup() {
     createCanvas(800, 600);
