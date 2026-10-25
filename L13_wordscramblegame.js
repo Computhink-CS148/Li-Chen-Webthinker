@@ -4,7 +4,7 @@ let streak = 0;
 let max = 0;
 let message = " ";
 
-const WORDS = ["Expression"]
+const WORDS = ["Expression", "International, "]
 function setup() {
     createCanvas(800, 600);
 }
