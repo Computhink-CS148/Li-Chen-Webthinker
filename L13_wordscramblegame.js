@@ -42,7 +42,8 @@ function doScrambleAgain() {
 }
 
 function checkGuess() {
-    let guess = guessInput.value()
+    let guess = guessInput.value();
+    guess
 }
 
 function chooseHiddenWord() {
