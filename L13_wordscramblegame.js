@@ -66,6 +66,7 @@ function scrambleWord(aWord) {
         }
     print("correct? " +  arrLetters);
     return arrLetters.join(''); // get back a string
+    scra
 }
 
 function draw() {
