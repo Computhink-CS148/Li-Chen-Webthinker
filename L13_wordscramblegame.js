@@ -22,7 +22,7 @@ function setup() {
     scrambledButton.position(150, 280);
     scrambledButton.style("font-size", "18px"); // px = pixel
     scrambledButton.size(150, 30);
-    scrambledButton.mousePressed(do Scra)
+    scrambledButton.mousePressed(doScrambleAgain);
 
     guessInput = createInput();
     guessInput.position(315, 280);
