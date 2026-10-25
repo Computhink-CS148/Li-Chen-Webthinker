@@ -43,7 +43,7 @@ function doScrambleAgain() {
 
 function checkGuess() {
     let guess = guessInput.value();
-    guess
+    guess = guess.toUpperCase()
 }
 
 function chooseHiddenWord() {
