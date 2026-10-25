@@ -53,7 +53,11 @@ function chooseHiddenWord() {
 
 function scrambleWord(aWord) {
     let arrLetters = aWord.split(""); //split string into array
-    
+    for(let index=arrLetters.length-1;
+        index > 0;
+        index--) {
+            
+        }
 }
 
 function draw() {
