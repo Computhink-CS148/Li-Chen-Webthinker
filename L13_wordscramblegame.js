@@ -57,7 +57,8 @@ function scrambleWord(aWord) {
         index > 0;
         index--) {
             //swap
-            first = arrLetters[in]
+            first = arrLetters[index];
+            who = floor
         }
 }
 
