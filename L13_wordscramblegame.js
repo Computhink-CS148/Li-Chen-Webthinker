@@ -7,7 +7,8 @@ let message = " ";
 let scrambled = " ";
 let hiddenword = " ";
 
-let scrambleBu
+let scrambledButton;
+let
 
 const WORDS = ["Expression", "International", "Bumblebee", "Coincidentally", "notebook",
      "scrambled", "seventeen", "nigeria",
