@@ -56,7 +56,7 @@ function scrambleWord(aWord) {
     for(let index=arrLetters.length-1;
         index > 0;
         index--) {
-            
+            //swap
         }
 }
 
