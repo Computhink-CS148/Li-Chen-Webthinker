@@ -2,7 +2,9 @@
 let score = 0;
 let streak = 0;
 let max = 0;
-let
+let message = " ";
+
+
 function setup() {
     createCanvas(800, 600);
 }
