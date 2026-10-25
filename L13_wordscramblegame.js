@@ -72,7 +72,7 @@ function draw() {
     textSize(32);
     textAlign(CENTER, CENTER);
     text("word scramble game!", width/2, 100);
-    text("scrambled word: COITAARN", width/2, 160);
+    text("scrambled word: ", width/2, 160);
 
     textSize(24);
     text("score: 0" + score, width/2, height/2+80);
