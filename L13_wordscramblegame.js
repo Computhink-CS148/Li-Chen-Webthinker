@@ -20,8 +20,9 @@ function setup() {
 
     scrambledButton = createButton("Re-scramble");
     scrambledButton.position(150, 300);
-    scrambledButton.style("font-size", "18px");
+    scrambledButton.style("font-size", "18px"); // px = pixel
     scrambledButton.size(150, 300);
+    
 }
 
 function draw() {
