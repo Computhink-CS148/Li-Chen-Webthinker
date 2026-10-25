@@ -30,8 +30,8 @@ function setup() {
 
     submitButton = createButton("Submit");
     submitButton.position(485, 280);
-    guessInput.style("font-size", "18px");
-    guessInput.size(110, 30);
+    submitButton.style("font-size", "18px");
+    submitButton.size(110, 30);
 }
 
 function draw() {
