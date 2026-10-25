@@ -47,7 +47,7 @@ function checkGuess() {
 function chooseHiddenWord() {
     hiddenword = random(WORDS);
     hiddenword = hiddenword.toUpperCase();
-    
+    scrambled = scramble
 }
 
 function draw() {
