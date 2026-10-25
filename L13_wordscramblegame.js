@@ -15,7 +15,8 @@ const WORDS = ["Expression", "International", "Bumblebee", "Coincidentally", "no
      "scrambled", "seventeen", "nigeria","bookstore", "photographs", 
      "millenium", "milliliters", "Incomprehensible",
      "Mississippi", "Accommodation", "Unnecessary", "overexaggerate", "mitochondria", 
-     "if the mitochondria is the powerhouse of the cell then music is what powers us through hell"];
+     "if the mitochondria is the powerhouse of the cell then music is what powers us through hell",
+    ""];
 
 function setup() {
     createCanvas(800, 600);
