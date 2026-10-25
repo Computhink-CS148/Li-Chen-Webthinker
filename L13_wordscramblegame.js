@@ -2,9 +2,9 @@
 let score = 0;
 let streak = 0;
 let max = 0;
-let message = " ";
+let message = "";
 
-let scrambled = " ";
+let scrambled = "";
 let hiddenword = " ";
 
 let scrambledButton;
@@ -41,7 +41,7 @@ function doScrambleAgain() {
 }
 
 function checkGuess() {
-    
+
 }
 
 function draw() {
