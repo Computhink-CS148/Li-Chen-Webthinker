@@ -52,7 +52,7 @@ function chooseHiddenWord() {
 }
 
 function scrambleWord(aWord) {
-    let arr
+    let arrLetters = 
 }
 
 function draw() {
