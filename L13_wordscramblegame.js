@@ -24,7 +24,7 @@ function setup() {
     scrambledButton.size(150, 300);
 
     guessInput = createInput();
-    guessInput.position
+    guessInput.position()
 }
 
 function draw() {
