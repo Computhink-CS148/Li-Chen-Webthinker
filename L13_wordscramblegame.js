@@ -38,7 +38,7 @@ function setup() {
 }
 
 function doScrambleAgain() {
-
+    
 }
 
 function checkGuess() {
@@ -66,7 +66,7 @@ function scrambleWord(aWord) {
         }
     print("correct? " +  arrLetters);
     return arrLetters.join(''); // get back a string
-    scrambled = scrambleWord(hiddenword);
+
 }
 
 function draw() {
