@@ -36,7 +36,13 @@ function setup() {
     submitButton.mousePressed(checkGuess);
 }
 
-function doScrambleAgain
+function doScrambleAgain() {
+
+}
+
+function checkGuess() {
+    
+}
 
 function draw() {
     background(220);
