@@ -5,10 +5,10 @@ let max = 0;
 let message = "";
 
 let scrambled = "";
-let hiddenword = " ";
+let hiddenword = "";
 
 let scrambledButton;
-let guessInput = " ";
+let guessInput = "";
 let submitButton;
 
 const WORDS = ["Expression", "International", "Bumblebee", "Coincidentally", "notebook",
