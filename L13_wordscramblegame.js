@@ -25,7 +25,8 @@ function setup() {
 
     guessInput = createInput();
     guessInput.position(315, 280);
-    guessInput.style("font-size")
+    guessInput.style("font-size", "18px");
+    
 }
 
 function draw() {
