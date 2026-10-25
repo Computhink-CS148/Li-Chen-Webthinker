@@ -1,7 +1,7 @@
 // write your codes here
 let score = 0;
 let streak = 0;
-let
+let ma
 function setup() {
     createCanvas(800, 600);
 }
