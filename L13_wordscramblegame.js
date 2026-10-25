@@ -45,7 +45,7 @@ function checkGuess() {
 }
 
 function chooseHiddenWord() {
-    hiddenword
+    hiddenword = random()
 }
 
 function draw() {
