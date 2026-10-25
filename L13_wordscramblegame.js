@@ -25,7 +25,7 @@ function setup() {
 
     guessInput = createInput();
     guessInput.position(315, 280);
-    
+    guessInput.style()
 }
 
 function draw() {
