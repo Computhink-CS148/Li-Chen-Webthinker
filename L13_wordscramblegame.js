@@ -5,7 +5,7 @@ let max = 0;
 let message = " ";
 
 let scrambled = " ";
-let hiddenword
+let hiddenword = " "
 
 const WORDS = ["Expression", "International", "Bumblebee", "Coincidentally", "notebook",
      "scrambled", "seventeen", "nigeria",
