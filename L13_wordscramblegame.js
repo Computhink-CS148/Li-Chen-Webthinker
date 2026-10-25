@@ -9,11 +9,11 @@ let hiddenword = " ";
 
 let scrambledButton;
 let guessInput = " ";
-let submitButton
+let submitButton;
 
 const WORDS = ["Expression", "International", "Bumblebee", "Coincidentally", "notebook",
      "scrambled", "seventeen", "nigeria",
-      "bookstore", "photographs"];
+      "bookstore", "photographs", "millenium"];
 function setup() {
     createCanvas(800, 600);
 }
