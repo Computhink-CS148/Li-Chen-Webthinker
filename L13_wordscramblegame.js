@@ -23,7 +23,8 @@ function setup() {
     scrambledButton.style("font-size", "18px"); // px = pixel
     scrambledButton.size(150, 300);
 
-    guessInput = 
+    guessInput = createInput();
+    
 }
 
 function draw() {
