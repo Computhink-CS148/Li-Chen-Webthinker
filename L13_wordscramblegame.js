@@ -13,7 +13,7 @@ let submitButton;
 
 const WORDS = ["Expression", "International", "Bumblebee", "Coincidentally", "notebook",
      "scrambled", "seventeen", "nigeria",
-      "bookstore", "photographs", "millenium"];
+      "bookstore", "photographs", "millenium", "milliliters", ];
 function setup() {
     createCanvas(800, 600);
 }
