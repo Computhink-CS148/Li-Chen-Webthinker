@@ -48,7 +48,7 @@ function checkGuess() {
         message = "yes";
     }
     else {
-        
+        message = "no";
     }
 }
 
