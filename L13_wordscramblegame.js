@@ -19,9 +19,9 @@ function setup() {
     createCanvas(800, 600);
 
     scrambledButton = createButton("Re-scramble");
-    scrambledButton.position(150, 300);
+    scrambledButton.position(150, 280);
     scrambledButton.style("font-size", "18px"); // px = pixel
-    scrambledButton.size(150, 300);
+    scrambledButton.size(150, 30);
 
     guessInput = createInput();
     guessInput.position(315, 280);
