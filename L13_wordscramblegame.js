@@ -50,6 +50,10 @@ function chooseHiddenWord() {
     scrambled = scrambleWord(hiddenword)
 }
 
+function scrambleWord(aWord) {
+    
+}
+
 function draw() {
     background(220);
     textSize(32);
