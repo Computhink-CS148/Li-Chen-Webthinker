@@ -33,7 +33,7 @@ function setup() {
     submitButton.position(485, 280);
     submitButton.style("font-size", "18px");
     submitButton.size(110, 30);
-    
+    submitButton.mousePressed(doScrambleAgain);
 }
 
 function draw() {
