@@ -38,7 +38,7 @@ function setup() {
     submitButton.size(110, 30);
     submitButton.mousePressed(checkGuess);
 
-    ch
+    chooseHiddenWord();
 }
 
 function doScrambleAgain() {
