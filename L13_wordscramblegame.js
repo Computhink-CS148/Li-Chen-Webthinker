@@ -12,5 +12,6 @@ function draw() {
 
     textSize(24);
     text("score: 0" + score, width/2, height/2+80);
-    text("streak: " + streak + "(max: ")
+    text("streak: " + streak + "(max: "+ max +")", width/2, height/2+110);
+    
 }
