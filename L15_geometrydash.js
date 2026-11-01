@@ -16,6 +16,9 @@ function setup() {
 
 function draw() {
     background("black");
+
+    
+
     if (!gameStarted) {
         drawStartScreen();
         return;
