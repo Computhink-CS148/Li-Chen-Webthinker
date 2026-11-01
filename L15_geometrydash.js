@@ -15,6 +15,7 @@ function draw() {
     textSize(14);
     textAlign(CENTER, CENTER);
     text("Press SPACE to jump", width/2, 50);
+    Reflect()
 }
 
 function drawStartScreen() {
