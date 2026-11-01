@@ -28,7 +28,9 @@ function draw() {
     if (playerY >= height - playerSize) {
 
     }
-    
+    else {
+        isGrounded
+    }
 
     fill("white");
     textSize(14);
