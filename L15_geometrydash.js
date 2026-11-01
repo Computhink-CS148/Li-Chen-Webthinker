@@ -54,7 +54,9 @@ function draw() {
     rect(playerX, playerY, playerSize, playerSize);
 
     fill("red");
-    for (let index = 0; index<3; index++);
+    for (let index = 0; index<3; index++){
+        
+    }
 }
 
 function drawStartScreen() {
