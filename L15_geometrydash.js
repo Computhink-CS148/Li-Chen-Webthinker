@@ -1,5 +1,6 @@
 // write your codes here
 let gameStarted = false;
+let 
 function setup() {
     createCanvas(600, 400);
     background("black");
@@ -16,7 +17,7 @@ function draw() {
     textAlign(CENTER, CENTER);
     text("Press SPACE to jump", width/2, 50);
     fill("green");
-    rect(50, width-50, 50, 50);
+    rect(50, height-50, 50, 50);
 }
 
 function drawStartScreen() {
