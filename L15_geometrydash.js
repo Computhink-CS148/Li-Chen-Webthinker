@@ -23,7 +23,7 @@ function draw() {
     }
 
     velocity += 0.8;
-    playerY += 
+    playerY += velocity;
 
     fill("white");
     textSize(14);
