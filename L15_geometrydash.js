@@ -53,7 +53,8 @@ function draw() {
     fill("lime");
     rect(playerX, playerY, playerSize, playerSize);
 
-    fill
+    fill("red");
+    for (let index = 0; index<3; index++);
 }
 
 function drawStartScreen() {
