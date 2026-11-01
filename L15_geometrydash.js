@@ -12,5 +12,8 @@ function draw() {
 }
 
 function drawStartScreen() {
-    
+    fill("white");
+    textSize(44);
+    textAlign(CENTER, CENTER);
+    text("Press SPACE to start", width/2, height/2);
 }
