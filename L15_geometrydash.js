@@ -6,7 +6,7 @@ function setup() {
 
 function draw() {
     fill("white");
-    textSize(44)
+    textSize(44);
     textAlign(CENTER, CENTER);
     text("Press SPACE to start", width/2, height/2);
 }
