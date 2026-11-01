@@ -17,7 +17,7 @@ function draw() {
     textSize(14);
     textAlign(CENTER, CENTER);
     text("Press SPACE to jump", width/2, 50);
-    text("Score: "+score)
+    text("Score: "+score, width/2, 80);
 
     fill("lime");
     rect(50, height-50, 50, 50);
