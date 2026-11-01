@@ -5,6 +5,7 @@ function setup() {
 }
 
 function draw() {
+    fill("white");
     textAlign(CENTER, CENTER);
-    
+
 }
