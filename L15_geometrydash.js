@@ -22,7 +22,8 @@ function draw() {
         return;
     }
 
-    velocity
+    velocity += 0.8;
+    
 
     fill("white");
     textSize(14);
