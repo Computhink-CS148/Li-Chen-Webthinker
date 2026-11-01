@@ -17,7 +17,7 @@ function setup() {
 function draw() {
     background("black");
 
-    
+    velocity += 0.8;
 
     if (!gameStarted) {
         drawStartScreen();
