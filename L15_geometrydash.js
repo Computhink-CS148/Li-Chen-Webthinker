@@ -26,6 +26,6 @@ function drawStartScreen() {
 
 function keyPressed() {
     if (keyCode === 32) {
-        gameStarted
+        gameStarted = true;
     }
 }
