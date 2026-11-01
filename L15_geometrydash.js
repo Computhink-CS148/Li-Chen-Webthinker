@@ -55,7 +55,7 @@ function draw() {
 
     fill("red");
     for (let index = 0; index<3; index++){
-        spikesX[index] -= spikeSpeed;
+        spikesX[index] -= random(1, spikeSpeed);
 
         if (spikesX[index] < 0) {
             spikesX[index] = width + RTCEncodedAudioFrame(100, 300);
