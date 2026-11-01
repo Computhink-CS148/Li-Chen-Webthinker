@@ -5,5 +5,6 @@ function setup() {
 }
 
 function draw() {
-    textAlign(CENTER, CENTER)
+    textAlign(CENTER, CENTER);
+    
 }
