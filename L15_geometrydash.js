@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-    if (!gameStart) {
+    if (!gameStarted) {
         drawStartScreen();
     }
     fill("white");
