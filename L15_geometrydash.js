@@ -6,8 +6,9 @@ function setup() {
 
 function draw() {
     if (!gameStart) {
-        drawStartScreen()
+        drawStartScreen();
     }
+    
 }
 
 function drawStartScreen() {
