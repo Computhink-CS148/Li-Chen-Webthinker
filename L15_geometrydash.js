@@ -29,7 +29,7 @@ function draw() {
 
     }
     else {
-        isGrounded
+        isGrounded = false;
     }
 
     fill("white");
