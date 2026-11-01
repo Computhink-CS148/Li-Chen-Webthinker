@@ -44,7 +44,7 @@ function drawStartScreen() {
 
 function keyPressed() {
     if (keyCode === 32 && isGrounded) {
-        
+        velocity = -1
     }
     else if (keyCode === 32) {
         gameStarted = true;
