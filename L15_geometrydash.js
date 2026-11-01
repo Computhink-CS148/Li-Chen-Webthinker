@@ -18,7 +18,8 @@ function setup() {
     createCanvas(600, 400);
     background("black");
     playerY = height - playerSize;
-    
+
+    for (let count = 0; count<3; count++){}
 }
 
 function draw() {
