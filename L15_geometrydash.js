@@ -21,6 +21,9 @@ function draw() {
         drawStartScreen();
         return;
     }
+
+    velocity
+
     fill("white");
     textSize(14);
     textAlign(CENTER, CENTER);
