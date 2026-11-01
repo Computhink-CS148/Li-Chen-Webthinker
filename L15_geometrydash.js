@@ -6,11 +6,12 @@ let playerX = 100;
 let playerY;
 let playerSize = 50;
 let velocity = 0; //speed of player
-let isGrounded 
+let isGrounded = false;
 
 function setup() {
     createCanvas(600, 400);
     background("black");
+    pla
 }
 
 function draw() {
