@@ -52,6 +52,8 @@ function draw() {
 
     fill("lime");
     rect(playerX, playerY, playerSize, playerSize);
+
+    fill
 }
 
 function drawStartScreen() {
