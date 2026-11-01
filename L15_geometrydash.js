@@ -8,7 +8,10 @@ function draw() {
     if (!gameStart) {
         drawStartScreen();
     }
-    
+    fill("white");
+    textSize(44);
+    textAlign(CENTER, CENTER);
+    text("Press SPACE to jump", width/2, height/2);
 }
 
 function drawStartScreen() {
