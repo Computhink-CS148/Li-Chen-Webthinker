@@ -9,6 +9,7 @@ function draw() {
     background("black");
     if (!gameStarted) {
         drawStartScreen();
+        return;
     }
     fill("white");
     textSize(14);
