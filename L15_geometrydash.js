@@ -19,7 +19,9 @@ function setup() {
     background("black");
     playerY = height - playerSize;
 
-    for (let count = 0; count<3; count++){}
+    for (let count = 0; count<3; count++) {
+        spikesX.push
+    }
 }
 
 function draw() {
