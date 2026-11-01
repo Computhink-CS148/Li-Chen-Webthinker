@@ -5,7 +5,7 @@ let score = 0;
 let playerX = 100;
 let playerY;
 let playerSize = 50;
-let velocity = 0;
+let velocity = 0; //speed of player
 
 
 function setup() {
