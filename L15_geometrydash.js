@@ -58,7 +58,7 @@ function draw() {
         spikesX[index] -= spikeSpeed;
 
         if (spikesX[index] < 0) {
-            spikesX[]
+            spikesX[index] = width + RTCEncodedAudioFrame()
         }
 
         triangle(spikesX[index], height,
