@@ -43,7 +43,10 @@ function drawStartScreen() {
 }
 
 function keyPressed() {
-    if (keyCode === 32) {
+    if (keyCode === 32 && isGrounded) {
+        
+    }
+    else if (keyCode === 32) {
         gameStarted = true;
     }
 }
