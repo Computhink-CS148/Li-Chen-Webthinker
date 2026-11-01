@@ -24,3 +24,6 @@ function drawStartScreen() {
     text("Press SPACE to start", width/2, height/2);
 }
 
+function keyPressed() {
+    if (keyCode === 32) {[]}
+}
