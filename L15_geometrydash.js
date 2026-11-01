@@ -57,7 +57,7 @@ function draw() {
     for (let index = 0; index<3; index++){
         spikesX[index] -= spikeSpeed;
         triangle(spikesX[index], height,
-            
+                 
         )
     }
 }
