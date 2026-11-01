@@ -1,5 +1,5 @@
 // write your codes here
-let gameS
+let gameStarted = false;
 function setup() {
     createCanvas(600, 400);
     background("black");
