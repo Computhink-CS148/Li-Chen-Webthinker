@@ -27,8 +27,8 @@ let gameStatus = "ready";
 let score = 0;
 let clearedRows = 0;
 let dropTimer = 0;
-let lastDropAt = 0;
 let lastMoveAt = 0;
+let lastSoftDropAt = 0;
 let backgroundStars = [];
 let restartButton;
 
@@ -68,6 +68,7 @@ function startGame() {
   score = 0;
   clearedRows = 0;
   dropTimer = 0;
+  lastSoftDropAt = 0;
   pieceBag = [];
   gameStatus = "playing";
   spawnPiece();
@@ -203,8 +204,11 @@ function handleMovement() {
   }
 
   if (keyIsDown(DOWN_ARROW)) {
-    dropTimer = 0;
-    movePieceDown();
+    if (now - lastSoftDropAt >= 70) {
+      lastSoftDropAt = now;
+      dropTimer = 0;
+      movePieceDown();
+    }
   }
 }
 
