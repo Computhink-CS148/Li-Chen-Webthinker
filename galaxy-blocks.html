@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Play Galaxy Blocks, a falling-block puzzle in the stars.">
+    <title>Galaxy Blocks</title>
+    <link rel="stylesheet" href="galaxy-blocks.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+    <script src="https://p5play.org/v3/planck.min.js"></script>
+    <script src="https://p5play.org/v3/p5play.js"></script>
+    <script src="galaxy-blocks.js" defer></script>
+  </head>
+  <body>
+    <main class="game-shell">
+      <a class="home-link" href="index.html">← Home</a>
+      <header class="page-heading">
+        <p class="eyebrow">A cosmic puzzle</p>
+        <h1>Galaxy Blocks</h1>
+        <p>Fit the falling fragments together and clear rows of starlight.</p>
+      </header>
+      <section class="game-layout" aria-label="Galaxy Blocks game">
+        <div class="canvas-frame" id="game-canvas"></div>
+        <aside class="game-info">
+          <div class="info-card">
+            <h2>Mission</h2>
+            <p>Reach <strong>1,500 points</strong> to chart a new constellation. Clear rows to score.</p>
+          </div>
+          <div class="info-card">
+            <h2>Controls</h2>
+            <p><kbd>←</kbd> <kbd>→</kbd> Move</p>
+            <p><kbd>↓</kbd> Soft drop</p>
+            <p>The Up arrow is not used.</p>
+          </div>
+          <p class="small-note">The game ends when the next fragment has no room to enter the board.</p>
+          <button id="restart-button" type="button">Start Game</button>
+          <a class="home-link secondary-link" href="index.html">Back to homepage</a>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>
