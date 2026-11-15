@@ -60,6 +60,12 @@ function update() {
   }
 }
 
+function keyPressed() {
+  if ([LEFT_ARROW, RIGHT_ARROW, DOWN_ARROW, UP_ARROW].includes(keyCode)) {
+    return false;
+  }
+}
+
 function startGame() {
   removeActiveSprites();
   settledCells = Array.from({ length: BOARD_ROWS }, () =>
@@ -321,6 +327,7 @@ function createActiveSprites() {
       CELL_SIZE - 6
     );
     sprite.collider = "none";
+    sprite.physics = "none";
     sprite.color = currentPiece.color;
     sprite.stroke = "#ffffff";
     sprite.strokeWeight = 1;
